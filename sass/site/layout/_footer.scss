@@ -1,0 +1,22 @@
+footer.site-footer {
+  @include flexbox();
+  @include justify-content(space-between);
+  @include font-size(0.9);
+  background: $color__black;
+  color: darken($color__white, 20%);
+  width: 100%;
+
+  a {
+    color: lighten($color__grey, 10%);
+    text-decoration: none;
+  }
+
+  div {
+    padding: $spacing__2;
+    width: 100%;
+
+    &.site-credits {
+      text-align: right;
+    }
+  }
+}

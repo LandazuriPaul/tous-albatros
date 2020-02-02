@@ -1,0 +1,31 @@
+/*
+ * Palette
+ */
+$color__primary: #36bee8;
+$color__secondary: #feef70;
+$color__tertiary: #bbe18c;
+
+$color__black: #111;
+$color__grey: #666;
+$color__white: #f1f1f1;
+
+$color__background-body: #fff;
+$color__background-screen: $color__white;
+$color__background-hr: #ccc;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+$color__text-screen: #21759b;
+$color__text-input: $color__grey;
+$color__text-input-focus: $color__black;
+$color__link: $color__primary;
+$color__link-visited: $color__primary;
+$color__link-hover: $color__primary;
+$color__text-main: #404040;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: $color__grey;

@@ -1,0 +1,101 @@
+header.site-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  // logo
+  .site-branding {
+    img {
+      width: 200px;
+    }
+  }
+
+  // menu
+  .main-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    ul li.menu-item {
+      margin: 0 $spacing__2;
+
+      &.current_page_item a {
+        background-color: $color__primary;
+      }
+
+      &:hover:not(.current_page_item) {
+        a::after {
+          left: 0;
+          right: 0;
+        }
+      }
+
+      a,
+      a:hover,
+      a:active,
+      a:visited {
+        padding: $spacing__4 $spacing__2;
+        margin: 0;
+        display: block;
+        color: $color__black;
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        &::after {
+          content: " ";
+          display: block;
+          position: absolute;
+          left: 50%;
+          right: 50%;
+          bottom: 0;
+          height: 2px;
+          background-color: $color__primary;
+          transition: all 0.2s ease;
+        }
+      }
+    }
+  }
+}
+
+// specific to the home page
+.site-banner {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: $spacing__24 * 2;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("./assets/images/banner.png") center no-repeat;
+    filter: grayscale(40%);
+    opacity: 0.7;
+  }
+
+  h1.site-title {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: $spacing__4;
+    z-index: 10;
+
+    span.blue {
+      color: $color__primary;
+    }
+  }
+
+  p.site-description {
+    font-size: 1.3em;
+    margin: 0;
+    z-index: 10;
+  }
+}
