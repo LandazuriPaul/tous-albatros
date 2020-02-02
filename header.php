@@ -53,7 +53,7 @@
 				if ( $tous_albatros_description || is_customize_preview() ) : ?>
 					<p class="site-description"><?php echo $tous_albatros_description; /* WPCS: xss ok. */ ?></p>
 				<?php endif; ?>
-				</div>
+			</div>
 		<?php endif; ?>
 
 		<div id="content" class="site-content">
