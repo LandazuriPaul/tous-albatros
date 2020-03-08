@@ -2,7 +2,7 @@
 /**
  * Theme Name:       Tous Albatros
  * Theme URI:        http://github.com/LandazuriPaul/tous-albatros
- * Version:          0.1.2
+ * Version:          0.1.3
  * Description:      Main theme for https://tous-albatros.fr
  * Author:           Paul Landázuri
  * GitHub Theme URI: https://github.com/LandazuriPaul/tous-albatros
@@ -847,7 +847,7 @@ footer.site-footer {
   footer.site-footer div {
     padding: 0.5rem;
     width: 100%; }
-    footer.site-footer div.site-credits {
+    footer.site-footer div.footer-credits {
       text-align: right; }
 
 /*--------------------------------------------------------------
