@@ -1,0 +1,14 @@
+{
+  "name": "tous-albatros",
+  "version": "1.0.0",
+  "description": "Tous Albatros Wordpress theme",
+  "scripts": {
+    "start": "node-sass -w sass/style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Landázuri",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

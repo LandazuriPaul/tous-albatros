@@ -1,5 +1,32 @@
-# os files
-.DS_store
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux generated files
+.directory
+.fuse_hidden*
+
+tmp/
+.next/
+*.*~
+.~lock.*
+
+# Log files
+npm-debug.log
+yarn-error.log
+.sass-cache/
+
+# Vendor files
+node_modules/
+
+# Other ignored files
+.idea/
+.vscode/
 
 # archives
-.zip
+*.zip
