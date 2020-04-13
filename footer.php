@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -11,22 +12,40 @@
 
 ?>
 
-		</div><!-- #content -->
-	</div><!-- .site-body -->
+</div><!-- #content -->
+</div><!-- .site-body -->
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			Tous Albatros &copy; 2018 - <span id="site-info__year"></span>
-		</div><!-- .site-info -->
-		<div class="site-credits">
+<footer id="colophon" class="site-footer">
+	<div class="footer-map">
+		<div class="footer-contact">
+			<h6>Nous contacter</h6>
+			<a href="mailto:contact@tousalabtros.fr?Subject=Contact%20depuis%20le%20site%20internet">contact@tousalabtros.fr</a>
+		</div>
+		<div class="footer-social">
+			<h6>Suivez-nous sur les réseaux sociaux</h6>
+			<a href="https://www.linkedin.com/company/tousalbatros/" target="_blank" rel="noopener noreferrer">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/linkedin.png" alt="LinkedIn" title="LinkedIn" />
+			</a>
+			<a href="https://www.facebook.com/tousalbatros" target="_blank" rel="noopener noreferrer">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png" alt="Facebook" title="Facebook" />
+			</a>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="footer-info">
+			Tous Albatros &copy; 2018 - <span id="footer-info__year"></span>
+		</div><!-- .footer-info -->
+		<div class="footer-credits">
 			Powered by Wordpress and the <a href="https://paul.landazuri.fr/projects/tous-albatros" target="_blank" rel="noopener noreferrer">Tous Albatros</a>&nbsp;template
 		</div>
-	</footer><!-- #colophon -->
+	</div>
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php
-	wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), NULL, true);
-	wp_footer();
+wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), NULL, true);
+wp_footer();
 ?>
 </body>
+
 </html>

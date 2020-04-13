@@ -826,39 +826,54 @@ header.site-header {
   text-transform: uppercase; }
 
 footer.site-footer {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
-  -ms-flex-pack: space-between;
-  font-size: 14.4px;
-  font-size: 0.9rem;
-  background: #111;
-  color: #bebebe;
   width: 100%; }
-  footer.site-footer a {
-    color: gray;
-    text-decoration: none; }
-  footer.site-footer div {
-    padding: 0.5rem;
+  footer.site-footer .footer-map {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between; }
+    footer.site-footer .footer-map div {
+      padding: 0.5rem;
+      width: 100%; }
+    footer.site-footer .footer-map .footer-social img {
+      height: 30px; }
+  footer.site-footer .footer-copyright {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between;
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    background: #111;
+    color: #bebebe;
     width: 100%; }
-    footer.site-footer div.footer-credits {
-      text-align: right; }
+    footer.site-footer .footer-copyright a {
+      color: gray;
+      text-decoration: none; }
+    footer.site-footer .footer-copyright div {
+      padding: 0.5rem;
+      width: 100%; }
+      footer.site-footer .footer-copyright div.footer-credits {
+        text-align: right; }
 
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
 .sticky {
   display: block; }
-
-.post,
-.page {
-  margin: 0 0 1.5em; }
 
 .updated:not(.published) {
   display: none; }
