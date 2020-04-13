@@ -54,7 +54,8 @@ footer.site-footer {
   .footer-copyright {
     @include font-size(0.9);
     background: $color__black;
-    color: darken($color__white, 20%);
+    color: darken($color__white, 30%);
+    padding: $spacing__2 0;
     width: 100%;
 
     a {
@@ -62,13 +63,8 @@ footer.site-footer {
       text-decoration: none;
     }
 
-    div {
-      padding: $spacing__2;
-      width: 100%;
-
-      &.footer-credits {
-        text-align: right;
-      }
+    .footer-credits {
+      text-align: right;
     }
   }
 }
