@@ -1,24 +1,57 @@
 footer.site-footer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  h6 {
+    font-size: 0.95em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .container {
+    width: 75%;
+    @include flexbox();
+    @include justify-content(space-between);
+  }
 
   .footer-map {
     width: 100%;
-    @include flexbox();
-    @include justify-content(space-between);
 
-    div {
-      padding: $spacing__2;
-      width: 100%;
+    .footer-contact {
+      a {
+        margin-top: 0;
+        text-decoration: none;
+        font-weight: bold;
+        color: inherit;
+        font-size: 0.8em;
+
+        &:hover {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
     }
 
-    .footer-social img {
-      height: 30px;
+    .footer-social {
+      a {
+        color: lighten($color__grey, 10%);
+        text-decoration: none;
+        img {
+          height: 30px;
+        }
+      }
     }
   }
 
   .footer-copyright {
-    @include flexbox();
-    @include justify-content(space-between);
     @include font-size(0.9);
     background: $color__black;
     color: darken($color__white, 20%);
