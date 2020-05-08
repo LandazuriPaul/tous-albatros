@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="footer-contact">
 				<h6>Nous contacter</h6>
-				<a href="mailto:contact@tousalabtros.fr?Subject=Contact%20depuis%20le%20site%20internet">contact@tousalabtros.fr</a>
+				<a href="mailto:contact@tousalbatros.fr?Subject=Contact%20depuis%20le%20site%20internet">contact@tousalbatros.fr</a>
 			</div>
 			<div class="footer-social">
 				<h6>Suivez-nous sur les réseaux sociaux</h6>
@@ -36,7 +36,7 @@
 	<div class="footer-copyright">
 		<div class="container">
 			<div class="footer-info">
-				Tous Albatros &copy; 2018 - <span id="footer-info__year"></span>
+				Tous Albatros &copy; 2019 - <span id="footer-info__year"></span>
 			</div><!-- .footer-info -->
 			<div class="footer-credits">
 				Powered by Wordpress and the <a href="https://github.com/LandazuriPaul/tous-albatros" target="_blank" rel="noopener noreferrer">Tous Albatros</a>&nbsp;template
