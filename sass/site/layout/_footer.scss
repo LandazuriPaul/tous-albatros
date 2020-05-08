@@ -41,6 +41,8 @@ footer.site-footer {
     }
 
     .footer-social {
+      text-align: center;
+
       a {
         color: lighten($color__grey, 10%);
         text-decoration: none;
