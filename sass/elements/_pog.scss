@@ -5,6 +5,7 @@ $pog_width: 150px;
 .pog-list {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 
   .pog {
     margin-right: $pog__horizontal_margin;
