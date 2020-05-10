@@ -2,7 +2,7 @@
 /**
  * Theme Name:       Tous Albatros
  * Theme URI:        http://github.com/LandazuriPaul/tous-albatros
- * Version:          0.1.13
+ * Version:          0.1.14
  * Description:      Main theme for https://tous-albatros.fr
  * Author:           Paul Landázuri
  * GitHub Theme URI: https://github.com/LandazuriPaul/tous-albatros
@@ -943,7 +943,8 @@ footer.site-footer {
     font-size: 0.95em;
     margin-bottom: 0;
     text-transform: uppercase;
-    letter-spacing: 0.05em; }
+    letter-spacing: 0.05em;
+    margin-bottom: 1em; }
   footer.site-footer .container {
     width: 80%;
     max-width: 60rem;
@@ -968,6 +969,8 @@ footer.site-footer {
       footer.site-footer .footer-map .footer-contact a:hover {
         text-decoration: none;
         color: inherit; }
+      footer.site-footer .footer-map .footer-contact a i {
+        margin-right: 0.6em; }
     footer.site-footer .footer-map .footer-social {
       text-align: center; }
       footer.site-footer .footer-map .footer-social a {
@@ -975,6 +978,8 @@ footer.site-footer {
         text-decoration: none; }
         footer.site-footer .footer-map .footer-social a img {
           height: 30px; }
+        footer.site-footer .footer-map .footer-social a:first-of-type {
+          margin-right: 0.3em; }
   footer.site-footer .footer-copyright {
     font-size: 14.4px;
     font-size: 0.9rem;

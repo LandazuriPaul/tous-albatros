@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="footer-contact">
 				<h6>Nous contacter</h6>
-				<a href="mailto:contact@tousalbatros.fr?Subject=Contact%20depuis%20le%20site%20internet">contact@tousalbatros.fr</a>
+				<a href="mailto:contact@tousalbatros.fr?Subject=Contact%20depuis%20le%20site%20internet"><i class="fa fa-envelope"></i>contact@tousalbatros.fr</a>
 			</div>
 			<div class="footer-social">
 				<h6>Suivez-nous sur les réseaux sociaux</h6>
