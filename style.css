@@ -459,14 +459,16 @@ table {
 
 .pog-list {
   display: flex;
-  margin-top: 30px;
   justify-content: space-evenly; }
   .pog-list .pog {
     margin-right: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px; }
+    width: 150px;
+    margin-top: 60px; }
+    .pog-list .pog:last-of-type {
+      margin-bottom: 60px; }
     .pog-list .pog .icon {
       height: 1.8em;
       width: 1.8em;

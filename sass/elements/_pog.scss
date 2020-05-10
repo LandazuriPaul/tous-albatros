@@ -1,14 +1,22 @@
+$pog__vertical_margin: 60px;
+$pog__horizontal_margin: 50px;
+$pog_width: 150px;
+
 .pog-list {
   display: flex;
-  margin-top: 30px;
   justify-content: space-evenly;
 
   .pog {
-    margin-right: 50px;
+    margin-right: $pog__horizontal_margin;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    width: $pog_width;
+    margin-top: $pog__vertical_margin;
+
+    &:last-of-type {
+      margin-bottom: $pog__vertical_margin;
+    }
 
     .icon {
       height: 1.8em;
