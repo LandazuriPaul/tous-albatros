@@ -1,0 +1,31 @@
+$quote_margin: 0.2em;
+$banner_height: 13em;
+
+.banner {
+  width: 100vw;
+  font-style: italic;
+  background: $color__tertiary;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 3em;
+
+  blockquote {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  cite {
+    font-size: 1.2em;
+    text-align: right;
+  }
+}
+
+.banner-placeholder:after {
+  content: " ";
+  display: block;
+  position: static;
+  height: $banner_height;
+}
