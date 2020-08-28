@@ -506,7 +506,8 @@ table {
       text-align: center; }
     .pog-list .pog .heading {
       font-weight: bold;
-      margin-top: 10px; }
+      margin-top: 10px;
+      white-space: nowrap; }
     .pog-list .pog .context {
       margin-top: 10px; }
 
