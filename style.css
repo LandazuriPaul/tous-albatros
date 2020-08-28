@@ -517,7 +517,8 @@ table {
   justify-content: space-evenly; }
   .photo-grid .photo {
     position: relative;
-    height: 200px; }
+    height: 200px;
+    margin-top: 24px; }
     .photo-grid .photo:after {
       content: " ";
       transition: 0.2s;

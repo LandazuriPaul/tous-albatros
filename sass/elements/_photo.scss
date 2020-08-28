@@ -8,6 +8,7 @@ $photo_height: 200px;
   .photo {
     position: relative;
     height: $photo_height;
+    margin-top: 24px;
 
     &:after {
       content: " ";
