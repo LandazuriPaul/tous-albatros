@@ -13,8 +13,8 @@ body {
 }
 
 .site-body {
-  width: 80%;
-  max-width: 60rem;
+  width: $width__site-body;
+  max-width: $max-width__site-body;
 }
 
 @import "header";
