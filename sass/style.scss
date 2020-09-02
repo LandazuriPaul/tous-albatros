@@ -1,7 +1,7 @@
 /**
  * Theme Name:       Tous Albatros
  * Theme URI:        http://github.com/LandazuriPaul/tous-albatros
- * Version:          1.1.3
+ * Version:          1.1.4
  * Description:      Main theme for https://tous-albatros.fr
  * Author:           Paul Landázuri
  * GitHub Theme URI: https://github.com/LandazuriPaul/tous-albatros
@@ -54,11 +54,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "typography/typography";
 
 /*--------------------------------------------------------------
-# Elements
---------------------------------------------------------------*/
-@import "elements/elements";
-
-/*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
 @import "forms/forms";
@@ -102,3 +97,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
