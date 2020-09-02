@@ -52,12 +52,14 @@ footer.site-footer {
       a {
         color: lighten($color__grey, 10%);
         text-decoration: none;
+        margin-right: 0.3em;
+
         img {
           height: 30px;
         }
 
-        &:first-of-type {
-          margin-right: 0.3em;
+        &:last-of-type {
+          margin-right: 0;
         }
       }
     }
