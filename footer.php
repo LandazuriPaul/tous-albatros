@@ -30,6 +30,9 @@
 				<a href="https://www.facebook.com/tousalbatros" target="_blank" rel="noopener noreferrer">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png" alt="Facebook" title="Facebook" />
 				</a>
+				<a href="https://www.instagram.com/tousalbatros/" target="_blank" rel="noopener noreferrer">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/instagram.png" alt="Instagram" title="Instagram" />
+				</a>
 			</div>
 		</div>
 	</div>
