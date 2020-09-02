@@ -541,7 +541,7 @@ table {
       margin-bottom: 60px; }
     .photo-grid .photo img {
       height: 200px; }
-    .photo-grid .photo a {
+    .photo-grid .photo .info {
       transition: 0.2s;
       opacity: 0;
       display: block;
@@ -553,17 +553,17 @@ table {
       z-index: 100;
       text-decoration: none;
       color: white; }
-      .photo-grid .photo a:hover {
+      .photo-grid .photo .info:hover {
         text-decoration: none;
         opacity: 1; }
-      .photo-grid .photo a p {
+      .photo-grid .photo .info p {
         text-align: center;
         margin-top: 20px; }
-      .photo-grid .photo a .name {
+      .photo-grid .photo .info .name {
         text-transform: uppercase;
         font-size: 1.2em;
         letter-spacing: 0.08em; }
-      .photo-grid .photo a .position {
+      .photo-grid .photo .info .position {
         font-weight: lighter;
         letter-spacing: 0.05em; }
 
