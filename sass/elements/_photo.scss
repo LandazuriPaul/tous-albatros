@@ -4,7 +4,10 @@ $photo_width: 200px;
 .photo-grid {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: space-evenly;
+
+  &.centered {
+    justify-content: center;
+  }
 
   .photo {
     position: relative;
