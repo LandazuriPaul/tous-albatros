@@ -1,14 +1,16 @@
 $photo_height: 200px;
+$photo_width: 200px;
 
 .photo-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  // justify-content: space-evenly;
 
   .photo {
     position: relative;
     height: $photo_height;
     margin-top: 24px;
+    margin-right: 2vw;
 
     &:after {
       content: " ";
@@ -30,6 +32,7 @@ $photo_height: 200px;
 
     &:last-of-type {
       margin-bottom: 60px;
+      margin-right: 0;
     }
 
     img {
